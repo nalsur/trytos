@@ -1,0 +1,26 @@
+#popular-report-panel .col-xs-6 {
+  text-align: center;
+}
+
+.popular-report-block {
+  height: 240px;
+  width: 240px;
+  border: 14px solid #ccc;
+  border-radius: 6px;
+  transition: all .3s;
+  box-sizing: border-box;
+  margin: auto;
+  overflow: hidden;
+}
+.popular-report-block > img {
+  width: 400px;
+  height: auto;
+  transition: all 5s;
+}
+.popular-report-block:hover {
+  border: 14px solid orange;
+  cursor: pointer;
+}
+.popular-report-block > img:hover {
+  transform:scale(1.25);
+}
