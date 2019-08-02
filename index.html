@@ -1,35 +1,71 @@
-<div class="container">
-  <div class="row">
-  <h2>Popular Reports</h2>
-  </div>
-  <div id="popular-report-panel">
-    <div class="row">
-      <div class="col-xs-6">
-        <h3>Timeline</h3>
-        <div class="popular-report-block">
-          <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
-        </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <style>
+      #popular-report-panel .col-xs-6 {
+        text-align: center;
+      }
+
+      .popular-report-block {
+        height: 240px;
+        width: 240px;
+        border: 14px solid #ccc;
+        border-radius: 6px;
+        transition: all .3s;
+        box-sizing: border-box;
+        margin: auto;
+        overflow: hidden;
+      }
+      .popular-report-block > img {
+        width: 400px;
+        height: auto;
+        transition: all 5s;
+      }
+      .popular-report-block:hover {
+        border: 14px solid orange;
+        cursor: pointer;
+      }
+      .popular-report-block > img:hover {
+        transform:scale(1.25);
+      }
+    </style>
+  </head>
+    <body>
+      <div class="container">
+      <div class="row">
+      <h2>Popular Reports</h2>
       </div>
-      <div class="col-xs-6">
-        <h3>Team Adoption</h3>
-        <div class="popular-report-block">
-          <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
+      <div id="popular-report-panel">
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>Timeline</h3>
+            <div class="popular-report-block">
+              <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <h3>Team Adoption</h3>
+            <div class="popular-report-block">
+              <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>User Experience</h3>
+            <div class="popular-report-block">
+              <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <h3>General Service Stats</h3>
+            <div class="popular-report-block">
+              <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-6">
-        <h3>User Experience</h3>
-        <div class="popular-report-block">
-          <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
-        </div>
-      </div>
-      <div class="col-xs-6">
-        <h3>General Service Stats</h3>
-        <div class="popular-report-block">
-          <img src="http://www.thewallpapers.org/photo/22244/Forrest-Green-Nature.jpg" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </body>
+</html>
